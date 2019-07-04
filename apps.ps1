@@ -66,4 +66,4 @@ Get-AppxPackage "*Spielleiste*" | Remove-AppxPackage -ErrorAction SilentlyContin
 Get-AppxPackage "*OfficeLens*" | Remove-AppxPackage -ErrorAction SilentlyContinue								# Office Lens
 
 taskkill /f /im OneDrive.exe
-& "$env:SystemRoot\SysWOW64\OneDriveSetup.exe" /uninstall
+& "$env:SystemRoot\SysWOW64\OneDriveSetup.exe" /uninstall 
